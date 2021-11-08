@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2BC0F22733C4D700868804 /* PerpConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BC0F12733C4D700868804 /* PerpConnectApp.swift */; };
+		BC2BC0F42733C4D700868804 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BC0F32733C4D700868804 /* ContentView.swift */; };
+		BC2BC0F62733C4D800868804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2BC0F52733C4D800868804 /* Assets.xcassets */; };
+		BC2BC0F92733C4D800868804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2BC0F82733C4D800868804 /* Preview Assets.xcassets */; };
+		BC2BC1042733C9FE00868804 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2BC1032733C9FE00868804 /* MarketView.swift */; };
+		BCB648F0273962DE0091D5E8 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB648EF273962DE0091D5E8 /* SideBar.swift */; };
+		BCB648F2273964520091D5E8 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB648F1273964520091D5E8 /* Globals.swift */; };
+		BCB648F42739647A0091D5E8 /* AmmInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB648F32739647A0091D5E8 /* AmmInfo.swift */; };
+		BCB648FB273976BB0091D5E8 /* SwiftUIWebView in Frameworks */ = {isa = PBXBuildFile; productRef = BCB648FA273976BB0091D5E8 /* SwiftUIWebView */; };
+		BCB648FD273977C70091D5E8 /* SetOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB648FC273977C70091D5E8 /* SetOrderView.swift */; };
+		BCB648FF273982900091D5E8 /* AllPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB648FE273982900091D5E8 /* AllPositions.swift */; };
+		BCB6490727398E740091D5E8 /* swiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB6490627398E740091D5E8 /* swiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC2BC0EE2733C4D700868804 /* PerpConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerpConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2BC0F12733C4D700868804 /* PerpConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerpConnectApp.swift; sourceTree = "<group>"; };
+		BC2BC0F32733C4D700868804 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC2BC0F52733C4D800868804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2BC0F82733C4D800868804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC2BC0FA2733C4D800868804 /* PerpConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PerpConnect.entitlements; sourceTree = "<group>"; };
+		BC2BC1032733C9FE00868804 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		BCB648EF273962DE0091D5E8 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		BCB648F1273964520091D5E8 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		BCB648F32739647A0091D5E8 /* AmmInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmmInfo.swift; sourceTree = "<group>"; };
+		BCB648FC273977C70091D5E8 /* SetOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetOrderView.swift; sourceTree = "<group>"; };
+		BCB648FE273982900091D5E8 /* AllPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPositions.swift; sourceTree = "<group>"; };
+		BCB6490627398E740091D5E8 /* swiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2BC0EB2733C4D700868804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB648FB273976BB0091D5E8 /* SwiftUIWebView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2BC0E52733C4D700868804 = {
+			isa = PBXGroup;
+			children = (
+				BC2BC0F02733C4D700868804 /* PerpConnect */,
+				BC2BC0EF2733C4D700868804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2BC0EF2733C4D700868804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BC0EE2733C4D700868804 /* PerpConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2BC0F02733C4D700868804 /* PerpConnect */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BC1022733C9CF00868804 /* ViewModel */,
+				BC2BC1012733C9C800868804 /* Model */,
+				BC2BC1002733C9C100868804 /* Views */,
+				BC2BC0F12733C4D700868804 /* PerpConnectApp.swift */,
+				BC2BC0F32733C4D700868804 /* ContentView.swift */,
+				BC2BC0F52733C4D800868804 /* Assets.xcassets */,
+				BC2BC0FA2733C4D800868804 /* PerpConnect.entitlements */,
+				BC2BC0F72733C4D800868804 /* Preview Content */,
+				BCB648F1273964520091D5E8 /* Globals.swift */,
+			);
+			path = PerpConnect;
+			sourceTree = "<group>";
+		};
+		BC2BC0F72733C4D800868804 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BC0F82733C4D800868804 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC2BC1002733C9C100868804 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC2BC1032733C9FE00868804 /* MarketView.swift */,
+				BCB648FE273982900091D5E8 /* AllPositions.swift */,
+				BCB648EF273962DE0091D5E8 /* SideBar.swift */,
+				BCB648FC273977C70091D5E8 /* SetOrderView.swift */,
+				BCB6490627398E740091D5E8 /* swiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC2BC1012733C9C800868804 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCB648F32739647A0091D5E8 /* AmmInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC2BC1022733C9CF00868804 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2BC0ED2733C4D700868804 /* PerpConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2BC0FD2733C4D800868804 /* Build configuration list for PBXNativeTarget "PerpConnect" */;
+			buildPhases = (
+				BC2BC0EA2733C4D700868804 /* Sources */,
+				BC2BC0EB2733C4D700868804 /* Frameworks */,
+				BC2BC0EC2733C4D700868804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerpConnect;
+			packageProductDependencies = (
+				BCB648FA273976BB0091D5E8 /* SwiftUIWebView */,
+			);
+			productName = PerpConnect;
+			productReference = BC2BC0EE2733C4D700868804 /* PerpConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2BC0E62733C4D700868804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BC2BC0ED2733C4D700868804 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BC2BC0E92733C4D700868804 /* Build configuration list for PBXProject "PerpConnect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2BC0E52733C4D700868804;
+			packageReferences = (
+				BCB648F9273976BB0091D5E8 /* XCRemoteSwiftPackageReference "swiftui-webview" */,
+			);
+			productRefGroup = BC2BC0EF2733C4D700868804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2BC0ED2733C4D700868804 /* PerpConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2BC0EC2733C4D700868804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2BC0F92733C4D800868804 /* Preview Assets.xcassets in Resources */,
+				BC2BC0F62733C4D800868804 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2BC0EA2733C4D700868804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB6490727398E740091D5E8 /* swiftUIView.swift in Sources */,
+				BC2BC0F42733C4D700868804 /* ContentView.swift in Sources */,
+				BCB648F42739647A0091D5E8 /* AmmInfo.swift in Sources */,
+				BC2BC0F22733C4D700868804 /* PerpConnectApp.swift in Sources */,
+				BCB648FD273977C70091D5E8 /* SetOrderView.swift in Sources */,
+				BCB648F0273962DE0091D5E8 /* SideBar.swift in Sources */,
+				BCB648F2273964520091D5E8 /* Globals.swift in Sources */,
+				BCB648FF273982900091D5E8 /* AllPositions.swift in Sources */,
+				BC2BC1042733C9FE00868804 /* MarketView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC2BC0FB2733C4D800868804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2BC0FC2733C4D800868804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC2BC0FE2733C4D800868804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PerpConnect/PerpConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PerpConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = FYS9RNAGTV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.PerpConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC2BC0FF2733C4D800868804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PerpConnect/PerpConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PerpConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = FYS9RNAGTV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.PerpConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2BC0E92733C4D700868804 /* Build configuration list for PBXProject "PerpConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2BC0FB2733C4D800868804 /* Debug */,
+				BC2BC0FC2733C4D800868804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2BC0FD2733C4D800868804 /* Build configuration list for PBXNativeTarget "PerpConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2BC0FE2733C4D800868804 /* Debug */,
+				BC2BC0FF2733C4D800868804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCB648F9273976BB0091D5E8 /* XCRemoteSwiftPackageReference "swiftui-webview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/globulus/swiftui-webview";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCB648FA273976BB0091D5E8 /* SwiftUIWebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCB648F9273976BB0091D5E8 /* XCRemoteSwiftPackageReference "swiftui-webview" */;
+			productName = SwiftUIWebView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC2BC0E62733C4D700868804 /* Project object */;
+}
